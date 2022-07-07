@@ -5,20 +5,28 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\b\fs24 \cf0 - Create new dataset bidders_df
+\f0\b\fs24 \cf0 - new dataset bidders_df
 \f1\b0 \
 	- [total_bid_count]\
 	- [average_bid]\
 	- [total_win]\
 \
 
-\f0\b - Append dataset auctions_df
+\f0\b - auctions_df
 \f1\b0 \
 	- find better formula for profit rate\
 	- remove canceled bids\
 	- [won_bidder]\
+	- [total_bidders]\
 
 \f0\b  \
+-df\
+	
+\f1\b0 - process each individual auction to derive more information\
+		-time expended between each individual bid\
+		-peak_price (highest bid at the time each individual bid is placed)\
+		-increment between bids (shift) (derived from peak price)
+\f0\b \
 \
 EDA\
 
